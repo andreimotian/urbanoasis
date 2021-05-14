@@ -7,6 +7,67 @@ header {
     background-color: black;
 }
 
+header button {
+    border-style: none;
+    display: block;
+    background-color: transparent;
+    height: 35px;
+    width: 35px;
+    left: 10px;
+    margin: 0;
+    position: relative;
+    outline: none;
+}
+
+header nav {
+    display: none;
+}
+
+button::before,
+button::after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    background-color: white;
+    height: 2px;
+    left: 6px;
+    /* transition */
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+
+button::before {
+    top: 10px;
+}
+
+button::after {
+    top: 19px;
+}
+
+button.animated::before,
+button.animated::after {
+    top: 16px;
+}
+
+button.animated::before {
+    transform: rotate(45deg);
+}
+
+button.animated::after {
+    transform: rotate(-45deg);
+}
+
+header nav.open {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: black;
+}
+
 header nav ul {
     margin: 0;
 }
@@ -31,9 +92,9 @@ header nav ul li a:hover {
 main section {
     background-image: url("../img/placeholder.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    top: 0;
-    bottom: 0;
+    background-size: cover;
+    background-position: left;
+    height: 35em;    
 }
 
 main section a {
