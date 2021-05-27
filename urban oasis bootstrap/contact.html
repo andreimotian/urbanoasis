@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Urban Oasis</title>
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+  </head>
+  
+  <body class="p-0">
+    
+<header>
+  <div class="container-fluid p-0 bg-dark">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a href="index.html" class="navbar-brand">
+                <img src="" alt="Urban Oasis logo by Pato" class="d-inline-block align-top"/>
+            </a>
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#toggleMobileMenu"
+            aria-controls="toggleMobileMenu"
+            aria-expanded="false"
+            aria-lable="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse"
+        id="toggleMobileMenu">
+    <ul class="navbar-nav text-center">
+        <li>
+            <a class="nav-link" href="#">News</a>
+
+        </li>
+
+        <li>
+            <a class="nav-link" href="about.html">About</a>
+        </li>
+
+        <li>
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+    </ul>
+
+    </div>
+
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 mt-5">
+                    <h2>Get in touch</h2>
+                    <p class="mb-5">Send us a message in the form below!</p>
+                </div>
+                <div class="col-md-6">
+                    <form class="mb-5" method="post" id="contactForm" name="contactForm" novalidate="novalidate">
+                        <div class="row">
+                        <div class="col-md-12 form-group">
+                        <label for="name" class="col-form-label">Name</label>
+                        <input type="text" class="form-control" name="name" id="name">
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-md-12 form-group">
+                        <label for="email" class="col-form-label">Email</label>
+                        <input type="text" class="form-control" name="email" id="email">
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-md-12 form-group">
+                        <label for="message" class="col-form-label">Message</label>
+                        <textarea class="form-control" name="message" id="message" cols="30" rows="7"></textarea>
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="col-md-12">
+                        <input type="submit" value="Send Message" class="btn btn-primary rounded-0 py-2 px-4">
+                        <span class="submitting"></span>
+                        </div>
+                        </div>
+                        </form>
+                        <div id="form-message-warning mt-4"></div>
+                        <div id="form-message-succes"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="text-center text-lg-start bg-dark text-muted">
+    <!-- Section: Social media -->
+    <section
+      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+    >
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Social</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Urban Oasis
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Links
+            </h6>
+            <p>
+              <a href="https://stadsnomade.org/" target="_blank" class="text-reset">Stadsnomade</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p><i class="fas fa-home me-3"></i> Adresgegevens</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              email adres
+            </p>
+            <p><i class="fas fa-phone me-3"></i>Telefoonnummer</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright: Urban Oasis
+      <a class="text-reset fw-bold" href="#">Stadsnomade</a>
+    </div>
+
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
