@@ -5,3 +5,13 @@ nav {
 .navbar-toggler {
    border: none;
 }
+
+main .btn {
+    background-color: coral;
+    border: none;
+}
+
+main .btn:hover {
+    background-color: crimson;
+
+}
