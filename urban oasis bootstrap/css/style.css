@@ -1,5 +1,5 @@
 nav {
-    background-color: coral;
+    background-color: rgb(53, 156, 85);
 }
 
 .navbar-toggler {
@@ -7,11 +7,19 @@ nav {
 }
 
 main .btn {
-    background-color: coral;
+    background-color: rgb(254, 195, 5);
     border: none;
 }
 
 main .btn:hover {
-    background-color: crimson;
+    background-color: rgb(248, 98 ,1);
 
+}
+
+body {
+    background-color: rgb(0, 140, 238);
+}
+
+h1, h2, p {
+    color: rgb(253, 222, 254);
 }
