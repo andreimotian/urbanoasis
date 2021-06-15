@@ -1,6 +1,6 @@
-nav {
+/*nav {
     background-color: rgb(53, 156, 85);
-}
+}*/
 
 .navbar-toggler {
    border: none;
@@ -24,13 +24,13 @@ h1, h2, p {
     color: rgb(253, 222, 254);
 }
 
-footer {
+/*footer {
     background-color:  rgb(254, 195, 5);
 }
 
 footer section{
     background-color:  rgb(254, 195, 5);
-}
+}*/
 
 footer p{
     color: gray;
