@@ -1,6 +1,16 @@
-/*nav {
-    background-color: rgb(53, 156, 85);
-}*/
+/*Font by Pato*/
+@font-face {
+    font-family: urbanoasis;
+    src: url(../assets/UrbanOasis11-Regular.otf);
+}
+
+h1 {
+    font-family: urbanoasis;
+}
+
+h2 {
+    font-family: urbanoasis;
+}
 
 .navbar-toggler {
    border: none;
@@ -13,22 +23,4 @@ main .btn {
 
 main .btn:hover {
     background-color: rgb(248, 98 ,1);
-
-}
-
-/*body {
-    background-color: rgb(0, 140, 238);
-}*/
-
-
-/*footer {
-    background-color:  rgb(254, 195, 5);
-}
-
-footer section{
-    background-color:  rgb(254, 195, 5);
-}*/
-
-footer p{
-    color: gray;
 }
