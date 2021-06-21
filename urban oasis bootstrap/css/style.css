@@ -6,10 +6,24 @@
 
 h1 {
     font-family: urbanoasis;
+    color: white;
 }
 
 h2 {
     font-family: urbanoasis;
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+li {
+    color: white;
 }
 
 .navbar-toggler {

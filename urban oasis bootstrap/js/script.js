@@ -1,8 +1,13 @@
+
+
 //variabel met array waar de kleuren in zitten
-var colorsBody = ['#008CEE', '#359C55', '#FEC305'];
-var colorsNav = ['#FA3E92', '#5CCB91', '#9F67CE'];
-var colorsFooter = ['#008CEE', '#359C55', '#FEC305'];
-var colorsTekst = ['#000000', '#FFFFFF'];
+var colorsBody = ['#FFDDFD', '#E56193', '#EE3C4A'];
+var colorsNav = ['#FFDDFD', '#E56193', '#EE3C4A'];
+var colorsFooter = ['#FFDDFD', '#E56193', '#EE3C4A'];
+//Kleurcombinaties
+//['#FFDDFD', '#E56193', '#EE3C4A'] Rood en roze
+//['#359C55', '#018CEB', '#FFC300'] Geel groen en blauw
+//['#ED503F', '#41AC80', '#F2D452'] Rood geel en groen
 
 //functies om de kleuren te veranderen bij het laden of refreshen van de website
 var changeBackground = function () {
@@ -15,13 +20,6 @@ var changeNavBg = function () {
 
 var changeFooterBg = function () {
     document.querySelector('footer', 'footer section').style.background = colorsFooter[Math.floor(Math.random() * colorsFooter.length)];
-};
-
-var changeTekst = function () {
-    document.querySelector('h1').style.color = colorsTekst[Math.floor(Math.random() * colorsTekst.length)];
-    document.querySelector('h2').style.color = colorsTekst[Math.floor(Math.random() * colorsTekst.length)];
-    document.querySelector('p').style.color = colorsTekst[Math.floor(Math.random() * colorsTekst.length)];
-    document.getElementById('main').style.color = colorsTekst[Math.floor(Math.random() * colorsTekst.length)];
 };
 
 //Als de pagina laad worden deze functies uitgevoerd
