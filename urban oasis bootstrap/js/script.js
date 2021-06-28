@@ -9,6 +9,7 @@ var palletGeelGroenBlauw = ['#359C55', '#018CEB', '#FFC300'];
 var palletRoodGeelGroen = ['#ED503F', '#41AC80', '#F2D452'];
 var palletLilaPaarsGroen = ['#8EE0B2', '#FFDDFE', '#9D7DC0'];
 var palletOranjeTealGroen = ['#FD5F08', '#3FAD86', '#44B8B5'];
+var palletWitZwartPaars = ['#76799A', '#FFFFFF', '#000000'];
 
 //Kleurensets met welke kleuren de body, nav en footer krijgen
 //set 1 rood roze
@@ -76,6 +77,19 @@ var palletVijfKleurDrie = function () {
     document.querySelector('footer, footer section').style.background = palletOranjeTealGroen[2];
 }
 
+//set 6 wit zwart paars
+var palletZesKleurEen = function () {
+    document.querySelector('body').style.background = palletWitZwartPaars[0];
+};
+
+var palletZesKleurTwee = function () {
+    document.querySelector('nav').style.background = palletWitZwartPaars[1];
+};
+
+var palletZesKleurDrie = function () {
+    document.querySelector('footer, footer section').style.background = palletWitZwartPaars[1];
+}
+
 //palletsets in een functie per pallet
 var palletEen = function () {
     palletEenKleurEen();
@@ -107,8 +121,14 @@ var palletVijf = function () {
     palletVijfKleurDrie();
 };
 
+var palletZes = function () {
+    palletZesKleurEen();
+    palletZesKleurTwee();
+    palletZesKleurDrie();
+}
+
 //De palletsets in een array zodat die met een functie aangeroepen worden
-var kleurPalletten = [palletEen, palletTwee, palletDrie, palletVier, palletVijf];
+var kleurPalletten = [palletEen, palletTwee, palletDrie, palletVier, palletVijf, palletZes];
 
 var laadPallet = function () {
     kleurPalletten[Math.floor(Math.random() * kleurPalletten.length)]();
