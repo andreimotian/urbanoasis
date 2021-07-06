@@ -7,15 +7,28 @@
 h1 {
     font-family: urbanoasis;
     color: white;
+    letter-spacing: -3px;
 }
 
 h2 {
     font-family: urbanoasis;
     color: black;
+    letter-spacing: -3px;
 }
 
 h3 {
     color: black;
+}
+
+h4 {
+    font-family: urbanoasis;
+    color: black;
+    letter-spacing: -3px;  
+}
+
+h5 {
+    color: black;
+    font-weight: 200;
 }
 
 h6 {
@@ -30,6 +43,9 @@ li {
     color: black;
 }
 
+.social {
+    text-decoration: none;
+}
 .navbar-toggler {
    border: none;
 }
@@ -41,4 +57,31 @@ main .btn {
 
 main .btn:hover {
     background-color: rgb(248, 98 ,1);
+}
+
+.logodesktop{
+    display: none;
+}
+
+.logomobile {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.carousel-caption {
+    background-color: rgba(254, 195, 5, 0.3);
+    border-radius: 25px;
+    padding: 45px;
+}
+
+@media (min-width: 768px) {
+    .logomobile{
+        display: none;
+    }
+
+    .logodesktop {
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
