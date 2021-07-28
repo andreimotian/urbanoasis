@@ -72,6 +72,10 @@ main .btn:hover {
     margin-right: 20px;
 }
 
+.socialheader{
+    display: none;
+}
+
 @media (min-width: 768px) {
     .logomobile{
         display: none;
@@ -81,5 +85,10 @@ main .btn:hover {
         display: inline-block;
         margin-left: 20px;
         margin-right: 20px;
+    }
+
+    .socialheader {
+        display: inline-block;
+        margin-right: 40px;
     }
 }
